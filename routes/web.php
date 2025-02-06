@@ -11,3 +11,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 require __DIR__.'/users.php';
+require __DIR__.'/entreprise.php';

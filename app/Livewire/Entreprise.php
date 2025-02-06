@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class Users extends Component
+class Entreprise extends Component
 {
     public function render()
     {
-        return view('livewire.comptes.users');
+        return view('livewire.entreprise.entreprise');
     }
 }
